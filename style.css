@@ -1,0 +1,190 @@
+
+/* ---- Font family & weights ---------
+
+font-family: 'Raleway', sans-serif;
+300 400 500 900
+
+
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-------- Temporary Styles ------ */
+
+/* * {
+    padding: 0.5rem;
+    border: 1px solid rgb(27, 21, 21);
+} */
+
+/* html,
+body {
+    border: none;
+} */
+
+/* h1,h2,h3,h4,h5,h6,p,a {
+    border: 2px solid rgb(18, 117, 150);
+} */
+
+
+/* ---- End Temporary styles ------- */
+
+/* ----------- Utility classes ----------------- */
+
+.padding     { padding: 5%;}
+.padding-lge { padding: 10%;}
+.padding-1   { padding: 1rem;}
+.padding-2   { padding: 2rem;}
+
+.margin-b-0 { margin-bottom: 0;}
+
+.tall-50 { min-height: 50vh;}
+.tall-60 { min-height: 60vh;}
+.tall-70 { min-height: 70vh;}
+.tall-80 { min-height: 80vh;}
+.tall-90 { min-height: 90vh;}
+
+.bg-featured { background-color: #1C2A2C;}
+.bg-dark     { background-color: #24282B;}
+
+
+.light-text { color: white;}
+
+.text-left    {text-align: left;}
+.text-center  {text-align: center;}
+.text-right   {text-align: right;}
+
+.subtle {
+    opacity: 0.8;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+/* --------------- Typography ------------------------ */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+.not-bold {
+    font-weight:300;
+}
+
+P, li {
+    font-weight: 300;
+    line-height: 1.4rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+p:last-child,
+li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: inherit;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.fab{
+
+    font-size: 1.7rem;
+    padding-left: 1rem;
+}
+
+a:hover {
+    color: #e1804d;
+}
+
+/* footer styling ---------------------------------- */
+
+.logo {
+    font-size: 3rem;
+    font-weight:900;
+    line-height: 1;
+}
+
+footer p {
+    margin-bottom:0.5rem;
+}
+
+
+/*  Background Images -------------------------------- */
+
+.bg-image{ background-color: #24282B;
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-image: url('/images/the-hotel-hallway.jpg');
+}
+
+.bg-roof {
+    background-image: url('/images/the-hotel-roof.jpg');
+}
+
+.bg-hallway{
+    background-image: url('/images/the-hotel-hallway.jpg');
+}
+
+.bg-bed{
+    background-image: url('/images/the-hotel-bed.jpg');
+}
+
+.bg-lounge {
+    background-image: url('/images/the-hotel-lounge-1.jpg');
+}
+
+.bg-lounge-3 {
+    background-image: url('/images/the-hotel-lounge-3.jpg');
+}
+
+.bg-maps {
+    background-image: url('/images/the-hotel-map.jpg');
+}
+
+.bg-sheets {
+    background-image: url('/images/the-hotel-sheets.jpg');
+}
+
+.bg-plant {
+    background-image: url('/images/the-hotel-plant.jpg');
+}
+
+.bg-padded {
+    padding-bottom: 30%;
+}
+
+.social-banner {
+    background-position: 50% 12%;
+}
+
+/* ------- sm - max-width in pixels approx 768px --- */
+
+@media(max-width: 48em) {
+    .hide-sm { display: none;}
+    .flex-flip-sm { flex-direction: column-reverse;}
+}
+
+
